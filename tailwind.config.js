@@ -14,7 +14,7 @@ module.exports = {
         'home': "url('/assets/img/.svg')",
       },
       fontFamily: {
-        nama: ['namaFontnya']
+        redhat: ['Red Hat Display', 'sans-serif']
       }
     },
   },

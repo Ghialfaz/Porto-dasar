@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer components {
+    .hovering-link {
+        @apply hover:bg-gradient-to-l hover:from-slate-500 hover:to-sky-700 hover:bg-clip-text hover:text-transparent transition-all duration-200;
+    }
+    .hover-bg {
+        @apply hover:bg-gradient-to-r hover:from-nav hover:to-sky-700 transition-transform duration-500;
+    }
+}
